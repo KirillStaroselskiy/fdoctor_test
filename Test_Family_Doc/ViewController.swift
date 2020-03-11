@@ -65,7 +65,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         if viewModel.pills.isEmpty {
-            self.loadData(callBack: nil)
+            self.loadData(){
+                self.fillLabels(self.viewModel.pills[0])
+                self.setupPageControl()
+            }
         } else {
             self.fillLabels(viewModel.pills[0])
         }
@@ -164,8 +167,7 @@ class ViewController: UIViewController {
    private func loadData(callBack: (() -> ())?) {
         viewModel.fetch(){
             self.collectionView.reloadData()
-            self.fillLabels(self.viewModel.pills[0])
-            self.setupPageControl()
+
             callBack?()
         }
     }
