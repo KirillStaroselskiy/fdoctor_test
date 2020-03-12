@@ -26,6 +26,7 @@
 		CE9C5AC12417CD900016C3D8 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C5AC02417CD900016C3D8 /* RealmManager.swift */; };
 		CE9C5AC32417D7220016C3D8 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9C5AC22417D7220016C3D8 /* CollectionViewCell.xib */; };
 		CE9C5AC62418F7690016C3D8 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C5AC52418F7690016C3D8 /* UICollectionView.swift */; };
+		CE9C5AC8241A24970016C3D8 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C5AC7241A24970016C3D8 /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		CE9C5AC02417CD900016C3D8 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		CE9C5AC22417D7220016C3D8 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		CE9C5AC52418F7690016C3D8 /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		CE9C5AC7241A24970016C3D8 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		F00CE472E04E63C5D1771A76 /* Pods_Test_Family_Doc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_Family_Doc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D8EE9132714731488D25F4 /* Pods-Test_Family_Doc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test_Family_Doc.release.xcconfig"; path = "Pods/Target Support Files/Pods-Test_Family_Doc/Pods-Test_Family_Doc.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				CE9C5AC52418F7690016C3D8 /* UICollectionView.swift */,
+				CE9C5AC7241A24970016C3D8 /* UIView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				CE48F2552416626B0048A997 /* ZoomAndSnapFlowLayout.swift in Sources */,
 				CE48F26424167D5F0048A997 /* SceneDelegate.swift in Sources */,
 				CE48F25E24166C0B0048A997 /* ApiService.swift in Sources */,
+				CE9C5AC8241A24970016C3D8 /* UIView.swift in Sources */,
 				CE48F25C24166BCA0048A997 /* APISessionManager.swift in Sources */,
 				CE48F262241676320048A997 /* Services.swift in Sources */,
 				CE48F286241685590048A997 /* PillsModel.swift in Sources */,

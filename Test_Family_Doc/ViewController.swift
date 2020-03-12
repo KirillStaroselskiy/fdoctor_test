@@ -55,11 +55,9 @@ class ViewController: UIViewController {
         button.imageView?.contentMode = .scaleToFill
         return button
     }()
-    private var pageControl = UIPageControl(frame: .zero)
-
     
+    private var pageControl = UIPageControl(frame: .zero)
     private var viewModel = PillsViewModel()
-    private var currentIndex = IndexPath()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -228,15 +226,4 @@ extension ViewController: UICollectionViewDelegateFlowLayout {
 }
 
 
-extension UIView {
-    func rotate360Degrees(duration: CFTimeInterval = 3) {
-        let rotateAnimation = CABasicAnimation(keyPath: "transform.rotation")
-        rotateAnimation.fromValue = 0.0
-        rotateAnimation.toValue = CGFloat(Double.pi * 2)
-        rotateAnimation.isRemovedOnCompletion = false
-        rotateAnimation.duration = duration
-        rotateAnimation.repeatCount=Float.infinity
-        self.layer.add(rotateAnimation, forKey: nil)
-    }
-}
 
